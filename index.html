@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amisha Kalgutkar - Personal Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gradient-to-br from-blue-400 to-purple-600 min-h-screen relative">
+  <!-- Floating Background Elements -->
+  <div class="floating-bubble"></div>
+  <div class="floating-bubble"></div>
+  <div class="floating-bubble"></div>
+
+  <!-- Navigation -->
+  <nav class="bg-white shadow-lg fixed w-full top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between h-16">
+        <div class="flex items-center">
+          <h1 class="text-xl font-bold text-gray-800">Amisha Kalgutkar</h1>
+        </div>
+        <div class="flex items-center space-x-8">
+          <a href="#about" class="nav-link text-gray-700 hover:text-blue-600">About</a>
+          <a href="#education" class="nav-link text-gray-700 hover:text-blue-600">Education</a>
+          <a href="#skills" class="nav-link text-gray-700 hover:text-blue-600">Skills</a>
+          <a href="#projects" class="nav-link text-gray-700 hover:text-blue-600">Projects</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mx-auto px-4 py-8 max-w-4xl pt-24">
+    <!-- Header Section -->
+    <header class="text-center mb-12 fade-in relative" id="header">
+      <div class="section-bg p-8 mb-8">
+        <img src="amisha.jpg" 
+             alt="Amisha Kalgutkar profile photo" 
+             class="w-32 h-32 mx-auto mb-4 profile-img border-4 border-white" />
+        <h1 class="text-4xl font-bold text-gray-800 mb-2">Amisha Kalgutkar</h1>
+        <p class="text-lg text-gray-600 mb-2">Email: kalgutkaramisha@gmail.com | Location: Navi Mumbai</p>
+        <div class="typing-container">
+          <span class="animated-text" id="typing-text"></span>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="section-bg p-8 mb-8 fade-in" id="about">
+      <h2 class="text-3xl font-semibold text-gray-800 mb-4">About Me</h2>
+      <p class="text-gray-700 leading-relaxed">
+        Hello! I am Amisha Kalgutkar from Navi Mumbai, a dedicated BCA graduate passionate about leveraging technology to solve real-world problems. 
+        With a solid foundation in programming, data analysis, and software development, I am eager to embark on a professional journey in the tech industry. 
+        My adaptability, quick learning, and commitment to excellence make me a valuable asset for any dynamic team.
+      </p>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section-bg p-8 mb-8 fade-in" id="education">
+      <h2 class="text-3xl font-semibold text-gray-800 mb-6">Education</h2>
+      <div class="space-y-4">
+        <div class="bg-gray-50 p-4 rounded-lg border-l-4 border-blue-500">
+          <h3 class="text-xl font-medium text-gray-800">Bachelor of Computer Applications (BCA) - Final</h3>
+          <p class="text-gray-600">CGPA: 7.79</p>
+        </div>
+        <div class="bg-gray-50 p-4 rounded-lg border-l-4 border-green-500">
+          <h3 class="text-xl font-medium text-gray-800">12th Standard</h3>
+          <p class="text-gray-600">Percentage: 67%</p>
+        </div>
+        <div class="bg-gray-50 p-4 rounded-lg border-l-4 border-purple-500">
+          <h3 class="text-xl font-medium text-gray-800">10th Standard</h3>
+          <p class="text-gray-600">Percentage: 73.60%</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section-bg p-8 mb-8 fade-in" id="skills">
+      <h2 class="text-3xl font-semibold text-gray-800 mb-6">Skills</h2>
+      <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+        <div class="skill-item bg-blue-500 text-white p-4 rounded-lg text-center">HTML</div>
+        <div class="skill-item bg-green-500 text-white p-4 rounded-lg text-center">CSS</div>
+        <div class="skill-item bg-yellow-500 text-white p-4 rounded-lg text-center">JavaScript</div>
+        <div class="skill-item bg-purple-500 text-white p-4 rounded-lg text-center">PowerBI</div>
+        <div class="skill-item bg-teal-500 text-white p-4 rounded-lg text-center">Excel</div>
+        <div class="skill-item bg-indigo-500 text-white p-4 rounded-lg text-center">Tableau</div>
+        <div class="skill-item bg-red-500 text-white p-4 rounded-lg text-center">AI</div>
+        <div class="skill-item bg-orange-500 text-white p-4 rounded-lg text-center">SQL</div>
+        <div class="skill-item bg-pink-500 text-white p-4 rounded-lg text-center">Python</div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section-bg p-8 mb-8 fade-in" id="projects">
+      <h2 class="text-3xl font-semibold text-gray-800 mb-6">Projects</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="project-card bg-white p-6 rounded-lg shadow-md border">
+          <h3 class="text-xl font-semibold text-gray-800 mb-2">Pathfinding Visualizer</h3>
+          <p class="text-gray-600 mb-4">An interactive visualizer demonstrating pathfinding algorithms.</p>
+        </div>
+        <div class="project-card bg-white p-6 rounded-lg shadow-md border">
+          <h3 class="text-xl font-semibold text-gray-800 mb-2">Anniversary Website</h3>
+          <p class="text-gray-600 mb-4">A celebratory website with animations and messages.</p>
+        </div>
+        <div class="project-card bg-white p-6 rounded-lg shadow-md border">
+          <h3 class="text-xl font-semibold text-gray-800 mb-2">Cake Website Frontend</h3>
+          <p class="text-gray-600 mb-4">Responsive cake ordering frontend with modern design.</p>
+        </div>
+        <div class="project-card bg-white p-6 rounded-lg shadow-md border">
+          <h3 class="text-xl font-semibold text-gray-800 mb-2">Motion Detection</h3>
+          <p class="text-gray-600 mb-4">Computer vision project using OpenCV and Python.</p>
+        </div>
+        <div class="project-card bg-white p-6 rounded-lg shadow-md border">
+          <h3 class="text-xl font-semibold text-gray-800 mb-2">Face Recognition</h3>
+          <p class="text-gray-600 mb-4">Face recognition system with AI libraries.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
